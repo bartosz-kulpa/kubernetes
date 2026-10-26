@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 620" role="img" aria-labelledby="planTitle planDesc">
+  <title id="planTitle">Projekt architektoniczny</title>
+  <desc id="planDesc">Techniczny rzut parteru domu jednorodzinnego na tle niebieskiego rysunku.</desc>
+  <defs>
+    <linearGradient id="planBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#18232d"/>
+      <stop offset="1" stop-color="#101820"/>
+    </linearGradient>
+    <pattern id="planGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#f6b51e" stroke-opacity="0.09"/>
+    </pattern>
+    <pattern id="planGridBig" width="120" height="120" patternUnits="userSpaceOnUse">
+      <path d="M120 0H0V120" fill="none" stroke="#f6b51e" stroke-opacity="0.15"/>
+    </pattern>
+  </defs>
+
+  <rect width="600" height="620" fill="url(#planBg)"/>
+  <rect width="600" height="620" fill="url(#planGrid)"/>
+  <rect width="600" height="620" fill="url(#planGridBig)"/>
+
+  <rect x="30" y="30" width="540" height="560" fill="none" stroke="#f4f0e8" stroke-opacity="0.14"/>
+  <g stroke="#f6b51e" stroke-width="3">
+    <path d="M30 58V30h28"/>
+    <path d="M542 30h28v28"/>
+    <path d="M570 562v28h-28"/>
+    <path d="M58 590H30v-28"/>
+  </g>
+
+  <g font-family="'Arial Narrow', Arial, Helvetica, sans-serif">
+    <text x="60" y="88" fill="#f6b51e" font-size="18" font-weight="700" letter-spacing="4">KULPA / PROJEKT 04</text>
+    <text x="60" y="113" fill="#f4f0e8" fill-opacity="0.45" font-size="10" letter-spacing="3.4">RZUT PARTERU · SKALA 1:100</text>
+  </g>
+
+  <g stroke="#f4f0e8" stroke-opacity="0.55" stroke-width="1">
+    <path d="M110 156v10M490 156v10M110 161h380"/>
+  </g>
+  <text x="300" y="147" fill="#f6b51e" fill-opacity="0.85" font-size="10" letter-spacing="2" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">12,40 m</text>
+
+  <g stroke="#f4f0e8" stroke-opacity="0.55" stroke-width="1">
+    <path d="M525 190h10M525 480h10M530 190v290"/>
+  </g>
+  <text transform="translate(550 335) rotate(90)" fill="#f6b51e" fill-opacity="0.85" font-size="10" letter-spacing="2" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">9,80 m</text>
+
+  <g stroke="#f4f0e8" stroke-opacity="0.55" stroke-width="1">
+    <path d="M110 503v10M300 503v10M110 508h190"/>
+  </g>
+  <text x="205" y="499" fill="#f4f0e8" fill-opacity="0.55" font-size="9" letter-spacing="2" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">4,20 m</text>
+
+  <!-- Outer walls -->
+  <g fill="none" stroke="#f4f0e8" stroke-width="7">
+    <path d="M110 480V190H490V480"/>
+    <path d="M490 480H380"/>
+    <path d="M330 480H110"/>
+  </g>
+
+  <g fill="none" stroke="#f4f0e8" stroke-width="4">
+    <path d="M300 190V240M300 285V480"/>
+    <path d="M300 330H340M380 330H490"/>
+    <path d="M110 390H190M235 390H300"/>
+    <path d="M410 330V400M410 445V480"/>
+  </g>
+
+  <!-- Door swings -->
+  <g fill="none" stroke="#f6b51e" stroke-opacity="0.6" stroke-width="1.4">
+    <path d="M300 285h45M345 285a45 45 0 0 0-45-45"/>
+    <path d="M190 390v-45M190 345a45 45 0 0 1 45 45"/>
+    <path d="M380 330v-45M380 285a45 45 0 0 0-40 45"/>
+    <path d="M410 445h-45M365 445a45 45 0 0 1 45-45"/>
+    <path d="M380 480v-50M380 430a50 50 0 0 0-50 50"/>
+  </g>
+
+  <!-- Windows -->
+  <g fill="none" stroke="#101820" stroke-width="6">
+    <path d="M170 190h80M110 240v60M490 230v60M200 480h80"/>
+  </g>
+  <g fill="none" stroke="#f4f0e8" stroke-opacity="0.9" stroke-width="1.4">
+    <path d="M170 187h80M170 193h80M107 240v60M113 240v60M487 230v60M493 230v60M200 477h80M200 483h80"/>
+  </g>
+
+  <!-- Furniture -->
+  <g fill="none" stroke="#f4f0e8" stroke-opacity="0.42" stroke-width="1.6">
+    <rect x="140" y="212" width="98" height="28" rx="4"/>
+    <path d="M140 220h-8v12h8M238 220h8v12h-8M158 212v28M220 212v28"/>
+    <circle cx="237" cy="300" r="14"/>
+    <path d="M237 286v-9M237 314v9M223 300h-9M251 300h9"/>
+
+    <rect x="320" y="204" width="140" height="22"/>
+    <circle cx="430" cy="215" r="7"/>
+    <path d="M396 204v22M396 215h-14"/>
+
+    <rect x="140" y="410" width="100" height="48" rx="3"/>
+    <path d="M140 422h100M188 410v12M188 422v36"/>
+
+    <rect x="428" y="350" width="40" height="22" rx="6"/>
+    <circle cx="448" cy="361" r="3"/>
+    <circle cx="448" cy="430" r="9"/>
+
+    <path d="M375 430h20M385 430v-18"/>
+    <rect x="320" y="400" width="46" height="16" rx="2"/>
+  </g>
+
+  <g font-family="'Arial Narrow', Arial, Helvetica, sans-serif" fill="#f4f0e8" fill-opacity="0.58" font-size="10" letter-spacing="3">
+    <text x="150" y="272">SALON</text>
+    <text x="346" y="268">KUCHNIA</text>
+    <text x="144" y="403">SYPIALNIA</text>
+    <text x="320" y="460">HOL</text>
+    <text x="424" y="458">ŁAZIENKA</text>
+  </g>
+
+  <!-- Ruler -->
+  <rect x="110" y="540" width="380" height="26" rx="4" fill="#f6b51e"/>
+  <g stroke="#11171d" stroke-width="1.4" stroke-opacity="0.8">
+    <path d="M120 540v8M139 540v8M158 540v13M177 540v8M196 540v8M215 540v13M234 540v8M253 540v8M272 540v13M291 540v8M310 540v8M329 540v13M348 540v8M367 540v8M386 540v13M405 540v8M424 540v8M443 540v13M462 540v8M481 540v8"/>
+  </g>
+  <text x="110" y="594" fill="#f4f0e8" fill-opacity="0.38" font-size="9" letter-spacing="3" font-family="Arial, Helvetica, sans-serif">SKALA 1 : 100</text>
+
+  <!-- Compass -->
+  <g transform="translate(520 100)">
+    <circle r="23" fill="none" stroke="#f4f0e8" stroke-opacity="0.3"/>
+    <path d="M0-16 6 2 0 8-6 2Z" fill="#f6b51e"/>
+    <text y="-28" fill="#f4f0e8" fill-opacity="0.55" font-size="9" letter-spacing="1" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">N</text>
+  </g>
+
+  <!-- Stamp -->
+  <g transform="translate(526 520)">
+    <circle r="34" fill="none" stroke="#f6b51e" stroke-opacity="0.65" stroke-dasharray="3 4"/>
+    <text y="-2" fill="#f6b51e" font-size="18" font-weight="700" text-anchor="middle" font-family="'Arial Narrow', Arial, Helvetica, sans-serif">25</text>
+    <text y="12" fill="#f6b51e" fill-opacity="0.7" font-size="6.5" letter-spacing="1.4" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">LAT</text>
+  </g>
+</svg>

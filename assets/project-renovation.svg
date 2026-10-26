@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 460" role="img" aria-labelledby="renovationTitle">
+  <title id="renovationTitle">Wnętrze w trakcie remontu z drabiną i farbą</title>
+  <defs>
+    <linearGradient id="renoWall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f1e8d8"/>
+      <stop offset="1" stop-color="#e7dbc7"/>
+    </linearGradient>
+    <linearGradient id="renoPaint" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#cf8162"/>
+      <stop offset="1" stop-color="#bd6c4d"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="460" fill="url(#renoWall)"/>
+  <rect y="360" width="640" height="100" fill="#c19a70"/>
+  <g stroke="#a87f55" stroke-width="2">
+    <path d="M0 384h640M0 410h640M0 436h640"/>
+    <path d="M120 360v100M280 360v100M440 360v100M600 360v100"/>
+  </g>
+
+  <path d="M0 232c66-16 130-4 196-15s132-3 202-9 158 2 242-7v159H0z" fill="url(#renoPaint)"/>
+  <path d="M0 235c66-16 130-4 196-15s132-3 202-9 158 2 242-7" fill="none" stroke="#e39a7c" stroke-width="4" opacity="0.55"/>
+
+  <g>
+    <rect x="58" y="74" width="168" height="186" fill="#26313b"/>
+    <rect x="68" y="84" width="148" height="166" fill="#dbe7e1"/>
+    <g stroke="#26313b" stroke-width="6">
+      <path d="M142 84v166M68 167h148"/>
+    </g>
+    <rect x="50" y="66" width="184" height="10" fill="#1b232c"/>
+    <rect x="50" y="258" width="184" height="12" fill="#1b232c"/>
+    <circle cx="174" cy="140" r="18" fill="#f6b51e" opacity="0.7"/>
+  </g>
+
+  <g fill="#72856b">
+    <path d="M70 356c-18 0-30-13-30-28 0-17 15-30 33-30 14 0 26 8 31 20 4-2 9-4 14-4 15 0 27 11 27 25s-12 25-27 25H70z"/>
+    <path d="M98 350v-34" stroke="#5f7259" stroke-width="4"/>
+    <path d="M98 336c-8-10-16-12-24-10M98 328c8-10 16-12 24-10" fill="none" stroke="#5f7259" stroke-width="3"/>
+  </g>
+  <path d="M52 388h68l-8 52H60z" fill="#a65f43"/>
+  <path d="M46 388h80v9H46z" fill="#8d4d35"/>
+
+  <g transform="rotate(-8 440 240)">
+    <rect x="386" y="220" width="90" height="20" rx="9" fill="#f6b51e"/>
+    <rect x="394" y="224" width="74" height="4" rx="2" fill="#d99a06" opacity="0.65"/>
+    <path d="M476 230h14a12 12 0 0 1 12 12v18" fill="none" stroke="#1b232c" stroke-width="5" stroke-linecap="round"/>
+    <rect x="496" y="260" width="12" height="40" rx="6" fill="#1b232c"/>
+    <rect x="496" y="260" width="12" height="12" rx="4" fill="#f6b51e"/>
+  </g>
+  <g fill="#bd6c4d">
+    <ellipse cx="410" cy="262" rx="3" ry="8" transform="rotate(12 410 262)"/>
+    <circle cx="426" cy="280" r="3"/>
+    <ellipse cx="446" cy="254" rx="2.5" ry="6" transform="rotate(-10 446 254)"/>
+  </g>
+
+  <g stroke="#f6b51e" stroke-width="9" stroke-linecap="round">
+    <path d="M508 366 542 112"/>
+    <path d="M570 366 604 112"/>
+  </g>
+  <g stroke="#f6b51e" stroke-width="6" stroke-linecap="round">
+    <path d="M515 326h82M521 288h82M527 250h82M533 212h82M539 174h82"/>
+  </g>
+  <path d="M508 366h-12M570 366h-12M542 112h-8M604 112h-8" stroke="#d99a06" stroke-width="5"/>
+
+  <g>
+    <path d="M564 356h58l-6 56h-46z" fill="#f6b51e"/>
+    <ellipse cx="593" cy="356" rx="29" ry="7" fill="#d99a06"/>
+    <path d="M565 374c8 5 42 5 56 0" fill="none" stroke="#1b232c" stroke-width="2" opacity="0.35"/>
+    <rect x="616" y="382" width="5" height="20" rx="2" fill="#bd6c4d"/>
+  </g>
+  <ellipse cx="620" cy="418" rx="22" ry="5" fill="#8d4d35"/>
+</svg>

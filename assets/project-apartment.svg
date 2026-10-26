@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 460" role="img" aria-labelledby="apartmentTitle">
+  <title id="apartmentTitle">Kameralna kamienica z balkonami i ceglaną elewacją</title>
+  <defs>
+    <linearGradient id="aptSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eff1ec"/>
+      <stop offset="1" stop-color="#dfe5dd"/>
+    </linearGradient>
+    <linearGradient id="aptBrick" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c98a6b"/>
+      <stop offset="1" stop-color="#b26f52"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="460" fill="url(#aptSky)"/>
+  <circle cx="92" cy="78" r="34" fill="#f6b51e" opacity="0.9"/>
+
+  <g fill="#ccd3c9">
+    <rect x="0" y="120" width="86" height="280"/>
+    <rect x="86" y="170" width="70" height="230"/>
+    <rect x="486" y="145" width="76" height="255"/>
+    <rect x="562" y="190" width="78" height="210"/>
+  </g>
+  <g fill="#e3e8df" opacity="0.75">
+    <rect x="18" y="150" width="18" height="24"/>
+    <rect x="50" y="150" width="18" height="24"/>
+    <rect x="98" y="196" width="16" height="22"/>
+    <rect x="126" y="196" width="16" height="22"/>
+    <rect x="504" y="174" width="16" height="22"/>
+    <rect x="530" y="174" width="16" height="22"/>
+    <rect x="576" y="216" width="16" height="22"/>
+    <rect x="602" y="216" width="16" height="22"/>
+  </g>
+
+  <rect y="366" width="640" height="94" fill="#c8c6b9"/>
+  <path d="M0 392h640M0 428h640" stroke="#b2b1a4" stroke-width="2"/>
+
+  <ellipse cx="330" cy="396" rx="205" ry="12" fill="#9ea39a" opacity="0.45"/>
+
+  <g>
+    <rect x="180" y="70" width="280" height="322" fill="url(#aptBrick)"/>
+    <rect x="170" y="64" width="300" height="14" fill="#2b3540"/>
+    <rect x="170" y="118" width="300" height="7" fill="#efe1cb" opacity="0.7"/>
+    <rect x="170" y="196" width="300" height="5" fill="#efe1cb" opacity="0.45"/>
+    <rect x="170" y="268" width="300" height="5" fill="#efe1cb" opacity="0.45"/>
+
+    <g fill="#26313b" stroke="#efe1cb" stroke-width="3">
+      <rect x="206" y="142" width="48" height="48"/>
+      <rect x="282" y="142" width="48" height="48"/>
+      <rect x="358" y="142" width="48" height="48"/>
+
+      <rect x="206" y="212" width="48" height="48"/>
+      <rect x="282" y="212" width="48" height="48"/>
+      <rect x="358" y="212" width="48" height="48"/>
+
+      <rect x="206" y="284" width="48" height="48"/>
+      <rect x="282" y="284" width="48" height="48"/>
+      <rect x="358" y="284" width="48" height="48"/>
+    </g>
+
+    <g stroke="#efe1cb" stroke-width="2">
+      <path d="M230 142v48M206 166h48M306 142v48M282 166h48M382 142v48M358 166h48"/>
+      <path d="M230 212v48M206 236h48M306 212v48M282 236h48M382 212v48M358 236h48"/>
+    </g>
+
+    <g fill="#f6b51e" opacity="0.72">
+      <rect x="210" y="288" width="18" height="20"/>
+      <rect x="286" y="216" width="18" height="20"/>
+      <rect x="362" y="288" width="18" height="20"/>
+    </g>
+
+    <g>
+      <rect x="180" y="184" width="280" height="7" fill="#2b3540"/>
+      <rect x="180" y="191" width="280" height="3" fill="#f6b51e" opacity="0.5"/>
+      <g fill="#2b3540">
+        <rect x="190" y="162" width="4" height="24"/>
+        <rect x="218" y="162" width="4" height="24"/>
+        <rect x="246" y="162" width="4" height="24"/>
+        <rect x="274" y="162" width="4" height="24"/>
+        <rect x="302" y="162" width="4" height="24"/>
+        <rect x="330" y="162" width="4" height="24"/>
+        <rect x="358" y="162" width="4" height="24"/>
+        <rect x="386" y="162" width="4" height="24"/>
+        <rect x="414" y="162" width="4" height="24"/>
+        <rect x="442" y="162" width="4" height="24"/>
+        <rect x="190" y="162" width="256" height="4"/>
+      </g>
+    </g>
+
+    <g>
+      <rect x="180" y="257" width="280" height="7" fill="#2b3540"/>
+      <rect x="180" y="264" width="280" height="3" fill="#f6b51e" opacity="0.5"/>
+      <g fill="#2b3540">
+        <rect x="190" y="235" width="4" height="24"/>
+        <rect x="218" y="235" width="4" height="24"/>
+        <rect x="246" y="235" width="4" height="24"/>
+        <rect x="274" y="235" width="4" height="24"/>
+        <rect x="302" y="235" width="4" height="24"/>
+        <rect x="330" y="235" width="4" height="24"/>
+        <rect x="358" y="235" width="4" height="24"/>
+        <rect x="386" y="235" width="4" height="24"/>
+        <rect x="414" y="235" width="4" height="24"/>
+        <rect x="442" y="235" width="4" height="24"/>
+        <rect x="190" y="235" width="256" height="4"/>
+      </g>
+    </g>
+
+    <rect x="196" y="336" width="248" height="56" fill="#26313b"/>
+    <rect x="206" y="344" width="94" height="40" fill="#d9e4de" opacity="0.8"/>
+    <rect x="312" y="344" width="44" height="48" fill="#f6b51e"/>
+    <rect x="370" y="344" width="64" height="40" fill="#d9e4de" opacity="0.8"/>
+    <g stroke="#26313b" stroke-width="3">
+      <path d="M253 344v40M206 364h94M402 344v40M370 364h64"/>
+    </g>
+    <rect x="330" y="318" width="48" height="18" rx="2" fill="#1b232c"/>
+    <text x="354" y="331" fill="#f6b51e" font-family="Arial, Helvetica, sans-serif" font-size="9" letter-spacing="2" text-anchor="middle">DOMEA</text>
+  </g>
+
+  <g fill="#72856b">
+    <rect x="118" y="276" width="7" height="90"/>
+    <circle cx="104" cy="264" r="27"/>
+    <circle cx="132" cy="278" r="21"/>
+    <circle cx="88" cy="286" r="18"/>
+    <rect x="534" y="292" width="7" height="74"/>
+    <circle cx="548" cy="282" r="24"/>
+    <circle cx="522" cy="294" r="19"/>
+  </g>
+
+  <g fill="#f6b51e">
+    <rect x="60" y="382" width="3" height="14"/>
+    <circle cx="61" cy="374" r="7"/>
+    <rect x="582" y="388" width="3" height="14"/>
+    <circle cx="583" cy="380" r="7"/>
+  </g>
+</svg>

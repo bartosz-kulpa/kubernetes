@@ -1,0 +1,195 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 820" role="img" aria-labelledby="heroTitle heroDesc">
+  <title id="heroTitle">Plac budowy</title>
+  <desc id="heroDesc">Ilustracja przedstawiająca dźwig, rusztowania i konstrukcję budynku w ciepłym świetle dnia.</desc>
+  <defs>
+    <linearGradient id="heroSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f9f4ea"/>
+      <stop offset="0.62" stop-color="#f1e7d5"/>
+      <stop offset="1" stop-color="#e4d4b9"/>
+    </linearGradient>
+    <pattern id="heroGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#1b232c" stroke-opacity="0.055"/>
+    </pattern>
+    <pattern id="mastLattice" width="28" height="32" patternUnits="userSpaceOnUse">
+      <rect width="28" height="32" fill="#e6a70b"/>
+      <path d="M0 0 28 32M28 0 0 32M0 0h28" fill="none" stroke="#b57e00" stroke-width="2"/>
+    </pattern>
+    <pattern id="jibLattice" width="40" height="16" patternUnits="userSpaceOnUse">
+      <rect width="40" height="16" fill="#e6a70b"/>
+      <path d="M0 0 20 16 40 0M0 16h40" fill="none" stroke="#b57e00" stroke-width="2"/>
+    </pattern>
+    <linearGradient id="heroGround" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1b232c"/>
+      <stop offset="1" stop-color="#11171d"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="760" height="820" fill="url(#heroSky)"/>
+  <rect width="760" height="820" fill="url(#heroGrid)"/>
+
+  <circle cx="568" cy="152" r="108" fill="#f6b51e"/>
+  <circle cx="568" cy="152" r="124" fill="none" stroke="#f6b51e" stroke-opacity="0.28" stroke-width="2"/>
+
+  <g fill="#fbf7ee" opacity="0.82">
+    <ellipse cx="384" cy="112" rx="44" ry="13"/>
+    <ellipse cx="418" cy="103" rx="31" ry="15"/>
+    <ellipse cx="452" cy="114" rx="36" ry="11"/>
+    <ellipse cx="670" cy="292" rx="34" ry="10"/>
+    <ellipse cx="696" cy="285" rx="23" ry="11"/>
+  </g>
+
+  <g fill="none" stroke="#1b232c" stroke-opacity="0.38" stroke-width="2" stroke-linecap="round">
+    <path d="M94 128q9-9 18 0q9-9 18 0"/>
+    <path d="M148 102q7-7 14 0q7-7 14 0"/>
+    <path d="M650 382q7-7 14 0q7-7 14 0"/>
+  </g>
+
+  <g fill="#dccdb4">
+    <rect x="0" y="566" width="62" height="180"/>
+    <rect x="62" y="612" width="70" height="134"/>
+    <rect x="132" y="590" width="48" height="156"/>
+    <rect x="180" y="632" width="82" height="114"/>
+    <rect x="700" y="572" width="60" height="174"/>
+  </g>
+
+  <g fill="#f6b51e" opacity="0.25">
+    <rect x="14" y="590" width="8" height="8"/>
+    <rect x="34" y="590" width="8" height="8"/>
+    <rect x="76" y="634" width="8" height="8"/>
+    <rect x="96" y="634" width="8" height="8"/>
+    <rect x="146" y="614" width="8" height="8"/>
+    <rect x="714" y="598" width="8" height="8"/>
+  </g>
+
+  <!-- Building frame -->
+  <g>
+    <rect x="312" y="744" width="396" height="18" fill="#1b232c"/>
+    <g fill="#1b232c">
+      <rect x="306" y="260" width="402" height="13"/>
+      <rect x="306" y="340" width="402" height="13"/>
+      <rect x="306" y="420" width="402" height="13"/>
+      <rect x="306" y="500" width="402" height="13"/>
+      <rect x="306" y="580" width="402" height="13"/>
+      <rect x="306" y="660" width="402" height="13"/>
+      <rect x="306" y="738" width="402" height="13"/>
+      <rect x="312" y="260" width="13" height="484"/>
+      <rect x="410" y="260" width="13" height="484"/>
+      <rect x="508" y="260" width="13" height="484"/>
+      <rect x="606" y="260" width="13" height="484"/>
+      <rect x="695" y="260" width="13" height="484"/>
+      <rect x="325" y="662" width="270" height="76" fill="#26313b"/>
+    </g>
+
+    <g fill="#f6b51e" opacity="0.55">
+      <rect x="345" y="681" width="33" height="38"/>
+      <rect x="401" y="681" width="33" height="38"/>
+      <rect x="457" y="681" width="33" height="38"/>
+      <rect x="513" y="681" width="33" height="38"/>
+    </g>
+
+    <g fill="#1b232c" opacity="0.6">
+      <rect x="359" y="681" width="4" height="38"/>
+      <rect x="415" y="681" width="4" height="38"/>
+      <rect x="471" y="681" width="4" height="38"/>
+      <rect x="527" y="681" width="4" height="38"/>
+    </g>
+
+    <!-- Stair core -->
+    <rect x="614" y="505" width="81" height="233" fill="#26313b"/>
+    <g stroke="#3d4a56" stroke-width="2">
+      <path d="M614 587h81M614 669h81"/>
+    </g>
+    <g fill="#f6b51e">
+      <rect x="630" y="528" width="15" height="28" opacity="0.85"/>
+      <rect x="658" y="528" width="15" height="28" opacity="0.32"/>
+      <rect x="630" y="610" width="15" height="28" opacity="0.32"/>
+      <rect x="658" y="610" width="15" height="28" opacity="0.85"/>
+      <rect x="630" y="692" width="15" height="28" opacity="0.85"/>
+      <rect x="658" y="692" width="15" height="28" opacity="0.32"/>
+    </g>
+
+    <!-- Top rebar -->
+    <g stroke="#1b232c" stroke-width="4" stroke-linecap="round">
+      <path d="M340 258v-26M438 258v-26M536 258v-26M634 258v-26M700 258v-26"/>
+    </g>
+  </g>
+
+  <!-- Scaffolding -->
+  <g>
+    <g fill="#1b232c" opacity="0.9">
+      <rect x="268" y="332" width="4" height="426"/>
+      <rect x="289" y="332" width="4" height="426"/>
+      <rect x="308" y="332" width="4" height="426"/>
+      <rect x="264" y="338" width="48" height="4"/>
+      <rect x="264" y="418" width="48" height="4"/>
+      <rect x="264" y="498" width="48" height="4"/>
+      <rect x="264" y="578" width="48" height="4"/>
+      <rect x="264" y="658" width="48" height="4"/>
+      <rect x="264" y="736" width="48" height="4"/>
+    </g>
+    <g stroke="#1b232c" stroke-opacity="0.4" stroke-width="2">
+      <path d="M268 338 308 418M308 338 268 418M268 418 308 498M308 418 268 498M268 498 308 578M308 498 268 578M268 578 308 658M308 578 268 658M268 658 308 736M308 658 268 736"/>
+    </g>
+    <g fill="#f6b51e">
+      <rect x="260" y="492" width="56" height="8"/>
+      <rect x="260" y="572" width="56" height="8"/>
+      <rect x="260" y="652" width="56" height="8"/>
+    </g>
+  </g>
+
+  <!-- Crane -->
+  <g>
+    <rect x="140" y="184" width="28" height="558" fill="url(#mastLattice)"/>
+    <rect x="128" y="728" width="52" height="20" fill="#26313b"/>
+    <rect x="40" y="184" width="360" height="16" fill="url(#jibLattice)"/>
+    <rect x="58" y="200" width="62" height="36" fill="#26313b"/>
+    <path d="M58 209h62M58 218h62M58 227h62" stroke="#3d4a56" stroke-width="2"/>
+    <rect x="168" y="200" width="46" height="36" fill="#26313b"/>
+    <rect x="176" y="207" width="30" height="17" fill="#f6b51e"/>
+    <path d="M154 184V118" stroke="#b57e00" stroke-width="5"/>
+    <path d="M154 119 68 184M154 119 372 184" stroke="#1b232c" stroke-opacity="0.55" stroke-width="2"/>
+    <rect x="344" y="198" width="24" height="9" fill="#1b232c"/>
+    <path d="M356 207v204" stroke="#1b232c" stroke-width="2"/>
+    <path d="M356 411h-10" stroke="#1b232c" stroke-width="4" stroke-linecap="round"/>
+    <g stroke="#1b232c" stroke-width="1.6">
+      <path d="M352 414 326 430M352 414 390 430"/>
+    </g>
+    <rect x="320" y="429" width="76" height="20" fill="#2b3540"/>
+    <rect x="320" y="429" width="76" height="4" fill="#f6b51e" opacity="0.75"/>
+  </g>
+
+  <!-- Foreground -->
+  <g>
+    <rect x="0" y="746" width="760" height="74" fill="url(#heroGround)"/>
+    <rect x="0" y="746" width="760" height="3" fill="#f6b51e" opacity="0.5"/>
+
+    <g fill="#33404b">
+      <rect x="556" y="700" width="146" height="10"/>
+      <rect x="556" y="716" width="146" height="10"/>
+      <rect x="556" y="732" width="146" height="10"/>
+    </g>
+    <g fill="#26313b">
+      <rect x="556" y="700" width="8" height="44"/>
+      <rect x="694" y="700" width="8" height="44"/>
+    </g>
+
+    <!-- Workers -->
+    <g fill="#1b232c">
+      <path d="M463 692h16v36h-16z"/>
+      <path d="M461 728h8l-2 16h-7zM473 728h8l4 16h-7z"/>
+      <path d="M479 699h12l6 26h-7l-5-18z"/>
+    </g>
+    <path d="M457 691a11 11 0 0 1 22 0z" fill="#f6b51e"/>
+    <circle cx="468" cy="680" r="9" fill="#1b232c"/>
+    <rect x="461" y="699" width="16" height="5" fill="#f6b51e" opacity="0.9"/>
+
+    <g fill="#1b232c">
+      <path d="M516 704h15v33h-15z"/>
+      <path d="M515 737h8l-2 14h-6zM526 737h8l3 14h-6z"/>
+      <path d="M511 709h-9l-3 23h6l5-16z"/>
+    </g>
+    <path d="M511 703a10 10 0 0 1 20 0z" fill="#f6b51e"/>
+    <circle cx="521" cy="693" r="8" fill="#1b232c"/>
+    <rect x="515" y="711" width="14" height="4" fill="#f6b51e" opacity="0.9"/>
+  </g>
+</svg>
